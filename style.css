@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    margin: 0;
+    height: 100vh;
+    width: 100vh;
+    background-color: #000;
+    color: #fff;
+    font-family:cursive;
+    font-size: 18px;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    color: #000;
+    height: 45%;
+    width: 45%;
+    border-radius: 10px;
+    box-shadow: inset 0 0 10px #000, 0 0 100px dodgerblue;
+    height: 300px; /* définissez la hauteur du conteneur */
+
+  overflow-y: auto;
+}
+#title{
+    
+    font-size: 25px;
+    font-weight: lighter;
+    position: absolute;
+    left: 15%;
+    top: 7%;
+}
+#toIcon{
+    position: absolute;
+    top: 2%;
+    left: 3%;
+   
+}
+#task{
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    padding: 1%;
+    width: 60%;
+    font-size: 15px;
+    border: 0;
+    outline: none;
+    border-bottom: 2px solid dodgerblue;
+}
+.btn-1{
+    position: absolute;
+    top: 32%;
+    left: 70%;
+    padding: 2%;
+    border: 0;
+    background-color: rgba(255,255,255,0);
+    font-size: 14px;
+    cursor: pointer;
+    outline: none;
+    color: dodgerblue;
+    letter-spacing: 1px;
+
+}
+.btn-1:hover{
+    opacity: 50%;
+}
+.container ul{
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    list-style: none;
+    width: 30%;
+    
+}
+.container li{
+    position: relative;
+    margin-bottom: 7%;
+}
+.container input[type = "checkbox"]{
+    position: absolute;
+    right: 110%;
+    top: 23%;
+    
+}
+.suppr{
+    position: absolute;
+    left: 250%; 
+    top: 20%;
+    cursor: pointer;
+
+
+}
+.line{
+    text-decoration: line-through;
+}
